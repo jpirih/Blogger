@@ -1,0 +1,17 @@
+{% extends'base.html' %}
+
+{% block content %}
+    <div class="row justify-content-md-center">
+        <div class="col-sm-6">
+            <h1>Page does not exist - 404</h1>
+        </div>
+    </div> <br> <!-- end of page header -->
+
+    <div class="row justify-content-md-center">
+        <div class="col-sm-8">
+            <div class="card card-light bg-light">
+                <p>{{ error }}</p>
+            </div>
+        </div>
+    </div> <!-- end of page content -->
+{% endblock %}
